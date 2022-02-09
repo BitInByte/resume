@@ -400,7 +400,8 @@
         \end{minipage}%
     \end{minipage}%
     \begin{minipage}[t]{\jobpositionlength}% minipage for position
-        {\large \color{emphasis} #3}
+        {\large \color{emphasis} }
+        #3
     \end{minipage}%
     \ifstrequal{#4}{}{}{\par \vspace{0.1em} \footnotesize #4}
     \par\normalsize
